@@ -19,7 +19,7 @@ auto main() -> int
 	// Displaying the array elements
 	// using non-member begin() and end()
 	std::cout << "Displaying array element using non-member begin() and end()" <<std::endl;
-	std::cout << std::endl;
+	//std::cout << std::endl;
 	for (auto i = std::begin(arr); i != std::end(arr); ++i)
 	 std::cout << *i << " ";
 	std::cout << std::endl;
