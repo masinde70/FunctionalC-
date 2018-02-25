@@ -2,11 +2,11 @@ appname := output
 CXX := g++
 CXXFLAGS := -std=c++11
 
-output: array.o
-	$(CXX) $(CXXFLAGS) array.o -o array
+output: vector.o
+	$(CXX) $(CXXFLAGS) vector.o -o vector
 
-functional.o: array.cpp
-	$(CXX) $(CXXFLAGS) -c array.cpp
+functional.o: vector.cpp
+	$(CXX) $(CXXFLAGS) -c vector.cpp
 
 clean:
-	rm *.o array
+	rm *.o vector
